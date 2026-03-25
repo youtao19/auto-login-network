@@ -16,8 +16,7 @@ const count = ref(0)
       count is {{ count }}
     </button>
     <p>
-      Edit
-      <code>src/components/HelloWorld.vue</code> to test HMR
+      hello youtao!
     </p>
   </div>
 
