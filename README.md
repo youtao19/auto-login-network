@@ -1,6 +1,14 @@
-# Vue 3 + Vite + CRXJS
+# Auto login Chrome Extension
 
-This template helps you quickly start developing Chrome extensions with Vue 3, TypeScript and Vite. It includes the CRXJS Vite plugin for seamless Chrome extension development.
+在你访问苏州城市学院校园网认证界面时，此插件将自动填写用户名和密码，并点击登录按钮，帮助你快速完成认证过程。
+
+## 使用方法
+1. 你可以下载插件的压缩包，并解压到本地。   
+2. 打开 Chrome 浏览器，进入 `chrome://extensions/` 页面，启用开发者模式。
+3. 点击“加载已解压的扩展程序”，选择解压后的文件夹
+4. 插件将自动安装并启用,初次使用你需要点击插件图标进行配置。
+5. 在弹出的配置界面中，输入你的校园网用户名和密码，并保存。
+6. 之后每次访问校园网认证界面时，插件将自动填写你的用户名和密码，并点击登录按钮，帮助你快速完成认证过程。
 
 ## Features
 
