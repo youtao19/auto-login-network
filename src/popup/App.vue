@@ -1,14 +1,10 @@
 <script setup lang="ts">
-import HelloWorld from '@/components/HelloWorld.vue'
+import Form from '@/components/Form.vue'
 </script>
 
 <template>
-  <div>
-    
-  </div>
-  <HelloWorld msg="auto login network" />
+  <Form />
 </template>
 
 <style scoped>
-
 </style>

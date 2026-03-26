@@ -1,36 +1,23 @@
-<script setup lang="ts">
-import HelloWorld from '@/components/HelloWorld.vue'
-</script>
-
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="@/assets/vite.svg" class="logo" alt="Vite logo">
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="@/assets/vue.svg" class="logo vue" alt="Vue logo">
-    </a>
-    <a href="https://crxjs.dev/vite-plugin" target="_blank">
-      <img src="@/assets/crx.svg" class="logo crx" alt="crx logo">
-    </a>
+  <div class="container">
+    <h1>Auto Login Network</h1>
+    <p>Side Panel is available for future settings.</p>
   </div>
-  <HelloWorld msg="Vite + Vue + CRXJS" />
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.container {
+  padding: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 18px;
 }
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-.logo.crx:hover {
-  filter: drop-shadow(0 0 2em #f2bae4aa);
+
+p {
+  margin: 0;
+  color: #64748b;
 }
 </style>
